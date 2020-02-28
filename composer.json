@@ -1,0 +1,29 @@
+{
+    "name": "sportshop/webshop",
+    "authors": [
+        {
+            "name": "Joey Marthé Behrens",
+            "email": "jmb96@live.nl"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-mysqli": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "php" : "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "app/functions/helpers.php",
+            "app/functions/database.php",
+            "app/functions/routing.php",
+            "app/functions/files.php",
+            "app/functions/validation.php",
+            "app/functions/mail.php"
+        ]
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.8"
+    }
+}

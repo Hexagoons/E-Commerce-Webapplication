@@ -1,0 +1,296 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: calc(100% - 235px);
+}
+
+.bg-primary {
+    background-color: #254451 !important;
+}
+
+.bg-primary-darker {
+    background-color: #213d48 !important;
+}
+
+.primary-text {
+    background: #254451;
+}
+
+.center-outer {
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+}
+
+.center-inner {
+    pointer-events: auto;
+    position: relative !important;
+    left: -50% !important;
+}
+
+.m-none {
+    margin: 0;
+}
+
+.m-sizes-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.m-tb-1em {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.m-5 {
+    margin: 15px;
+}
+
+.m-10 {
+    margin: 15px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.p-sizes-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.suffix {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.btn-active {
+    font-weight: bold;
+}
+
+.btn-link {
+    background:none!important;
+    border:none;
+    padding: 5px 10px;
+    font-size: 17px;
+
+    color:#069;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.btn-action {
+    padding: 0 6px 0 6px;
+}
+
+.btn-action i {
+    font-size: 16px !important;
+}
+
+.form-action {
+    display: inline;
+}
+
+textarea {
+    height: 100px !important;
+}
+
+i.fa {
+    position: relative;
+}
+
+.badge:after{
+    content: attr(data-amount);
+    position: absolute;
+    background: rgb(63, 64, 64);
+    color: #ffffff;
+    top: 10px;
+    right: -15px;
+    height:20px;
+    width:20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+    border-radius: 50%;
+}
+
+.alert {
+    background: #1e88e5;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+}
+
+.alert-error, .alert-validation {
+    background: #ed5a6a;
+}
+
+.alert-success {
+    background: #26a69a;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .col {
+    margin: 0 !important;
+}
+
+/* Input field, color of underline on focus */
+.input-field input:focus + label {
+    color: #254451 !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid #254451 !important;
+    box-shadow: 0 1px 0 0 #254451 !important
+}
+
+.content {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.header-image {
+    margin: 0;
+    height: calc(100vh - 64px);
+    line-height: calc(100vh - 64px);
+    background-size: cover !important;
+}
+
+.header-image .content {
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.header-image .content h1 {
+    font-size: 85px;
+}
+
+.header-image .content p {
+    font-size: 23px;
+    letter-spacing: 10px;
+}
+
+.sidenav .suffix {
+    top: 10px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 24px;
+}
+
+.product-price {
+    position: relative;
+}
+
+.product-price .price {
+    font-size: 24px;
+    color: #ed5a6a;
+}
+
+.product-price .product-form {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.product-form-images .wrapper {
+    position: relative;
+}
+
+.product-form-images .wrapper label {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background: white;
+    padding: 4px;
+ }
+
+.no-border tr {
+    border-bottom: 0 !important;
+}
+
+.product-card {
+    height: 95%;
+}
+
+.product-card .card-image {
+    height: 80%;
+}
+
+.product-card .card-title {
+    background: #ffffff !important;
+    padding: 8px !important;
+}
+
+.product-card .card-content {
+    border-top: 1px solid rgba(160,160,160,0.2);
+    height: 20%;
+}
+
+.product-card .card-content .valign-wrapper {
+    height: 100%;
+}
+
+.admin-nav {
+    height: 35px;
+    line-height: 35px;
+}
+
+.sidenavo {
+    width: 80%;
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.sidenavo a {
+    padding: 6px 8px 6px 16px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenavo a:hover {
+    color: #064579;
+}
